@@ -1,0 +1,26 @@
+#staticdiv{
+   position: static;
+
+}
+#relativediv{
+   position: relative;
+   top: 100px;
+   left: 500px;
+   right: 150px;
+}
+#absolutediv{
+   position: absolute;
+   background-color: aqua;
+}
+#fixeddiv{
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+}
+.container{
+   height: 1000px;
+}
+.stick{
+   position: sticky;
+   top: 10px;
+}
