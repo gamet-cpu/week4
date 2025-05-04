@@ -1,0 +1,73 @@
+#block{
+    display: block;
+    background-color: red;
+}
+#inline{
+    display: inline;
+    background-color: blue;
+}
+#flex{
+    display: flex;
+    background-color: green ;
+}
+#flexbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.item{
+    margin: 10px;
+}
+.flexcont{
+    display: flex;
+}
+#item1{
+    flex-grow: 10;
+    flex-shrink: 5;
+    flex-basis: 50px;
+}
+#item2{
+    flex-grow: 5;
+    flex-shrink: 10;
+    flex-basis: 40px;
+}
+#item3{
+    flex-grow: 6;
+    flex-shrink: 8;
+    flex-basis: 25px;
+}
+.anotherflex{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 800px;
+    background-color: aqua;
+}
+#item11{
+    flex-basis: 50%;
+    background-color: red;
+}
+#item22{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#item33{
+    background-color: green;
+    flex-basis: 100px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
